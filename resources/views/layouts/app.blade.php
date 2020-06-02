@@ -21,12 +21,22 @@
 </head>
 <body>
     <div id="app">
-       
-
-
-        <main class="py-4">
+        <section class="px-8 py-4 mb-6">
+            <header class="container mx-auto">
+                <h1>
+                    <img
+                        src="/images/company_logo.png"
+                        alt="company logo"
+                    >
+                </h1>
+            </header>
+        </section>
+        
+       <section class="px-8">
+            <main class="container mx-auto">
             @yield('content')
-        </main>
+            </main>
+       </section>
     </div>
 </body>
 </html>
